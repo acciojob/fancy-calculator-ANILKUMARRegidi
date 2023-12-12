@@ -1,11 +1,7 @@
-//your JS code here. If required.
-const result = (input1, input2) =>{
-	let value1 = input1*2;
-	let value2 = input*1;
-	let result = value1 + value2;
-	console.log(`The final result is: ${result}`);
+ const result = () =>{
+    let input1 = prompt("enter value1");
+    let input2 = prompt("enter value2");
+    let ans = input1*2 + input2*1;
+    console.log("The final result is:" + ans);
 }
 result();
-prompt(input1);
-prompt(input2);
-alert(result);
