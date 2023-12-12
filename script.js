@@ -6,3 +6,6 @@ const result = (input1, input2) =>{
 	console.log(`The final result is: ${result}`);
 }
 result();
+prompt(input1);
+prompt(input2);
+alert(result);
